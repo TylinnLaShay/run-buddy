@@ -1,8 +1,8 @@
 /* remove browser defaults */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* apply syle to body */
@@ -47,27 +47,7 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
-/* apply style to footer */
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-footer h2 {
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-footer div {
-    line-height: 1.5;
-    text-align: right;
-}
-footer a {
-    color: #024e76;
-}
+
 
 
 
@@ -124,6 +104,8 @@ section {
     bottom: 120px;
     right: 140px;
     margin: 5px 0 15px 0;
+    width: 40%;
+    margin: 3.5%;
   }
 .hero-form h3 {
     font-size: 24px;
@@ -155,6 +137,22 @@ section {
     padding: 10px 20px;
     font-size: 16px;
   }
+
+  .hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18 px;
+    line-height: 1.3;
+  }
+
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+  }
+
 /* Hero Style End */
 
 /* Style "what we do" section */
@@ -202,11 +200,9 @@ section {
 .steps span {
     font-size: 38px;
   }
-
 /* end of style "what you do" */
 
 /* Style trainers section */
-
 .trainers {
     text-align: center;
 }
@@ -251,8 +247,8 @@ section {
     font-size: 17px;
     line-height: 1.3;
   }
-
   /* Style trainers section end */
+
 
   /* Style "reach out" section */
 
@@ -291,5 +287,27 @@ section {
 .contact-info a {
     color: #fce138;
   }
-  
   /* Style "reach out" secction end */
+
+
+  /* apply style to footer */
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer h2 {
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+footer a {
+  color: #024e76;
+}
