@@ -5,6 +5,34 @@
   box-sizing: border-box;
 }
 
+
+/* generic classes */
+
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+
+.flex-row {
+  display: flex;
+}
+
+/* end generic classes */
+
+
 /* apply syle to body */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -48,37 +76,11 @@ header nav ul li a {
 }
 
 
-
-
-
-/* generic classes */
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-  }
-  
-.primary-border {
-    border-color: #fce138;
-  }
-  
-.secondary-border {
-    border-color: #39a6b2;
-  }
-
-
-
-/* end generic classes */
-
-
 /* apply style to section */
 section {
     padding: 60px;
   }
+
 /* end section style */
 
 /* Hero Style start */
@@ -156,9 +158,6 @@ section {
 /* Hero Style End */
 
 /* Style "what we do" section */
-.intro {
-    text-align: center;
-  }
 
 .intro p {
     line-height: 1.7;
@@ -166,6 +165,7 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
   }
 
 /* end style "what we do" */
@@ -173,7 +173,6 @@ section {
 /* Style "what you do" */
 
 .steps { 
-    text-align: center;
     background: #fce138;
   }
 
@@ -204,8 +203,9 @@ section {
 
 /* Style trainers section */
 .trainers {
-    text-align: center;
+
 }
+
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -253,7 +253,6 @@ section {
   /* Style "reach out" section */
 
 .contact {
-    text-align: center;
     background: #024e76;
   }
 .contact h2 {
