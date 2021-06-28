@@ -8,7 +8,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-https://TylinnLaShay.github.io/run_buddy/
+https://tylinnlashay.github.io/run-buddy/
 
 ## Contribution
 Made with :heart: by Tylinn
